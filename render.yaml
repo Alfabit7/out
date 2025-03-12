@@ -1,1 +1,7 @@
-
+services:
+  - type: web
+    name: outline-vpn
+    plan: free
+    dockerfile: Dockerfile
+    env: static
+    port: 8388
